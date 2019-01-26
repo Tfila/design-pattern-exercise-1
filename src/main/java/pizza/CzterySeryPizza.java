@@ -1,15 +1,12 @@
 package pizza;
 
-import java.util.Arrays;
 import java.util.List;
 
-public class HawaiPizza extends Pizza {
+public class CzterySeryPizza extends Pizza {
 
-    public HawaiPizza(double cost,List<String> components) {
-        super(cost,components);
-
+    public CzterySeryPizza(double cost, List<String> components) {
+        super(cost, components);
     }
-
 
     public void showPizzaInfo(){
         System.out.println(this.toString());
@@ -17,7 +14,7 @@ public class HawaiPizza extends Pizza {
 
     @Override
     public String toString() {
-        return "HawaiPizza{" +
+        return "CzterySeryPizza{" +
                 "cost=" + cost +
                 ", components=" + components +
                 '}';
